@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "NOVA SERUM" },
+      { name: "description", content: "Build and customize sales pages with product listings, WhatsApp integration, and social proof videos." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "NOVA SERUM" },
+      { property: "og:description", content: "Build and customize sales pages with product listings, WhatsApp integration, and social proof videos." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "NOVA SERUM" },
+      { name: "twitter:description", content: "Build and customize sales pages with product listings, WhatsApp integration, and social proof videos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/249d5f4f-a498-466c-88c1-af9020dd3163/id-preview-cf180682--58cc23e5-c490-4dec-866a-c98fa9e72204.lovable.app-1777944688670.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/249d5f4f-a498-466c-88c1-af9020dd3163/id-preview-cf180682--58cc23e5-c490-4dec-866a-c98fa9e72204.lovable.app-1777944688670.png" },
     ],
     links: [
       {
