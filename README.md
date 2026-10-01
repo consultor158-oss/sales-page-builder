@@ -1,51 +1,41 @@
 # Sales Page Builder
 
-An open-source React + TypeScript toolkit for building conversion-focused sales pages with reusable components and a modern developer workflow.
+This repository currently contains a single React + TypeScript sales landing page for Nova Beauty Sérum. Despite the repository name, it is not yet a general-purpose page builder or reusable component toolkit.
 
-## Why this project exists
-
-Sales pages are often rebuilt from scratch. This project aims to provide reusable, composable building blocks so developers can assemble, customize, test, and ship landing pages faster.
+The application is written in Brazilian Portuguese and includes product information, offer links, and supplied media. Product statements and commercial details are part of the current page content; verify them with the responsible business before relying on or republishing them.
 
 ## Stack
 
-- React 19
-- TypeScript
-- Vite / TanStack Start
-- TanStack Router and React Query
-- Radix UI
+- React 19 and TypeScript
+- TanStack Start and TanStack Router
+- Vite
 - Tailwind CSS
-- Zod
+- Radix UI components and Lucide icons
 
 ## Development
 
-Install dependencies and start the development server:
+Requires Node.js 22 or later and npm.
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-Useful checks:
+The project currently defines these checks:
 
 ```bash
 npm run lint
 npm run build
 ```
 
+GitHub Actions runs both commands for pull requests and pushes to `main`. There is no automated unit-test suite configured yet.
+
 ## Contributing
 
-Contributions are welcome. Start with issues labeled **good first issue** or **help wanted**, read [CONTRIBUTING.md](CONTRIBUTING.md), and keep pull requests focused.
+Please keep changes focused on the current application, explain the user problem being addressed, and include relevant verification in your pull request. Read [CONTRIBUTING.md](CONTRIBUTING.md) and check existing issues and pull requests before starting.
 
-## Roadmap
+Useful contribution areas include accessibility, responsive behavior, content accuracy, and tests for isolated behavior.
 
-- Reusable sales-page sections and primitives
-- Theme/token system
-- Accessibility and responsive-layout improvements
-- Component documentation and examples
-- Automated visual and unit testing
-- Community templates
-- Plugin/integration API
+## Media and third-party materials
 
-## License
-
-MIT
+Product photos, videos, brand assets, checkout destinations, and testimonials may have separate rights or commercial terms. The presence of a repository license does not establish permission to reuse those materials. Verify their ownership and applicable terms before redistributing or using them outside this project.
